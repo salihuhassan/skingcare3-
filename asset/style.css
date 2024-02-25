@@ -1,0 +1,337 @@
+header{
+    height:auto;
+    background-color: rgba(0, 128, 107, 0.685);
+    text-align: center;
+}
+.yellow-star{
+    color: yellow;
+}
+
+a{
+    color: aliceblue;
+    text-transform: capitalize;
+     line-height: 10px; 
+     font-size: 12px;
+}
+#gay{
+    background-color: black;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 12px;
+}
+p{
+text-transform:capitalize;
+}
+#bas{
+    float: right;
+
+}
+h1{
+    text-align: center;
+
+}
+#box{
+  color: beige;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+#est{
+background-color: white;
+
+}
+.os{
+    height: auto;
+}
+.o{
+    
+    height: auto;
+    
+}
+.das{
+    border: 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 16px;
+    font-size: 13px;
+}
+.das img{
+    width: 15vh;
+
+}
+
+#xas{
+    line-height: 16px;
+    text-align: center;
+    padding: 0px;
+    
+
+}
+#was{
+padding-top:  10px;
+    padding-left: 30px;
+    
+}
+
+#test{
+    text-align: justify;
+    width: auto;
+    margin: auto;
+    font-size: 13px;
+}
+#gres{
+
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    color: beige;
+    
+}
+.vaz{
+    color: black;
+    text-transform: uppercase;
+ 
+  
+}
+h3{
+    text-align: center;
+}
+
+#has{
+
+background-color: rgba(0, 128, 111, 0.753);
+
+
+}
+#fas{
+    width: 200px;
+    height: 106px;
+}
+.bestseller{
+    display:flex;
+    justify-content: center;
+    line-height: 14px;
+}
+.jas{
+    border: 0px;
+    height: auto;
+    background-color:white;
+    text-align: center;  
+ margin: 10px;
+}
+
+
+.fat{
+    border: 1px;
+    height: auto;
+  
+}
+#fa{
+    width: 200px;
+    height: auto;
+}
+
+#fad{
+    width: 200px;
+    height: auto;
+}
+#ha{
+    border: 1px;
+    width: auto;
+    height: 300px;
+    background-color: bisque; 
+    padding: 20px;
+}
+
+#kas{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+
+}
+#kast{
+    width: auto;
+    height: 100%;
+    background-color: rgba(245, 245, 220, 0.053);
+    padding-left: 15px;
+}
+#kast p{
+    text-align: justify;
+}
+#kav{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.ka{
+    border: 1px;
+    width: auto;
+    height: auto;
+    border-left : solid rgb(0, 128, 90);
+    border-top: solid rgb(0, 119, 128);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-right: none;
+    border-bottom: none;
+    background-color:white;
+    display: inline-block;
+    padding: 19px;
+}
+#los{
+    width: auto;
+    height: auto;
+    background-color:palegoldenrod;
+    
+}
+#ban{
+    border: 2px;
+    width: auto;
+    height: auto;
+    border: double;
+    border-color: aqua;
+    display: flex;
+}
+#po{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(0, 128, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#pos{
+    width: auto;
+    height: 200px;
+    text-align: justify;
+   
+    
+    
+}
+
+input{
+    background-color:rgba(0, 128, 0, 0.178) ;
+    border-color: white;
+    height: 36px;
+    width:auto;
+
+}
+
+#side_text{
+    text-align: justify;
+    margin:5px;
+}
+#cast{
+    border-style: none;
+    background-color: white;
+   width: auto;
+   height: auto; 
+}
+
+#cas{
+
+    height: 100px;
+    width: 100%;
+   
+}
+#bax{
+    padding: 20px;
+}
+
+
+
+
+@media screen and (max-width:500px){
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    #gay{
+        line-height: 15px;
+    }
+    #bas{
+        width: 100%;
+    }
+    p{
+        padding: 5px;
+    }
+   #xas{
+    flex-direction: column;
+    line-height: 11px;
+   }
+.das{
+    width: 40%;
+    margin: 5px;
+    text-align: justify;
+}
+#test{
+    flex-direction: column;
+    align-items: center;
+}
+#has{
+   
+ flex-wrap: wrap;
+}
+.bestseller{
+    flex-wrap: wrap;
+   
+}
+.jas{
+    width: 40%;
+  
+}
+.jas h3{
+    line-height: 11px;
+    font-size: 10px;
+}
+.fat{
+    width: 100%;
+  
+}
+#was{
+    padding-top:  10px;
+    padding-left: 10px;
+}
+#gres{
+    flex-wrap: wrap;
+    margin: 20px;
+}
+#kast{
+    flex-wrap: wrap;
+   
+}
+#ka,h3,.ser{
+    padding: 20px;
+}
+.ka{
+    line-height: 15px;
+    font-size: 12px;
+}
+#est{
+    flex-wrap: wrap;
+   
+}
+.os{
+    width: 100%;
+}
+.o{
+    width: 100%;
+}
+.vaz{
+    font-size: 15px;
+}
+#pos{
+padding: 10px;
+background:rgba(0, 128, 0, 0.313);
+}
+#po{
+    width: auto;
+    height: auto;
+}
+
+}
